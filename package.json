@@ -1,0 +1,14 @@
+{
+  "name": "test_repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.4.0",
+    "cypress-cucumber-preprocessor": "^2.3.0",
+    "multiple-cucumber-html-reporter": "^1.16.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
